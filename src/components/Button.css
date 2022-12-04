@@ -1,0 +1,19 @@
+.modal-button {
+  position: absolute;
+	top: 45%;
+	transform: translateY(-45%);
+  left: calc(50% - 241px / 2);
+  font-size: 20px;
+  border: none;
+  padding: 24px 66px;
+  background-color: #fff;
+  box-shadow: 0 3px 22px rgba(187, 187, 187, 0.85);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.modal-button:hover {
+	transform: translateY(calc(-45% + 3px));
+  box-shadow: 0 0 22px rgba(202, 202, 202, 0.85);
+}
